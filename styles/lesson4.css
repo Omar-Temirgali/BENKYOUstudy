@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', cursive;
+}
+/* body {
+    background-color: #12303a;
+} */
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, .7);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+#theme {
+    font-size: 20px;
+    color: #fff;
+}
+#theme1 {
+    display: none;
+}
+#btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 10px;
+}
+#btn:hover, #theme-change:hover {
+    background-color: #fff;
+    color: #000;
+}
+#theme-change {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    cursor: pointer;
+    border: 1.5px solid #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 10px;
+}
+.upper {
+    background: url("media/japan_7.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixed;
+	overflow:scroll;
+}
+.lessontheme1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 15px 0px;
+}
+#th {
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+.page1 {
+    max-width: 900px;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 5px 15px 0;
+    border-radius: 15px;
+}
+.indent {
+    font-size: 20px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.example {
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 60px;
+}
+.example-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #298FDE;
+}
+.scheme {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+    #theme {
+        display: none;
+    }
+    #theme1 {
+        display: block;
+    }
+    .scheme {
+        width: 100%;
+    }
+    .example {
+        margin-left: 0;
+    }
+    header {
+        width: 100%;
+    }
+    #btn, #theme-change {
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 2px 5px;
+        margin: 10px 5px 10px;
+    }
+    .lessontheme1 {
+        padding: 100px 15px 0px;
+    }
+    #th {
+        width: 100%;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+    .page {
+        padding: 0 15px 0;
+    }
+    .page1 {
+        padding: 5px 10px 0;
+    }
+    .indent {
+        text-indent: 20px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="styles/media/icon_benkyou.png">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 480px)" href="styles/main-mobile.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <title>Japanese Language</title>
+</head>
+<body>
+    <div class="upper_main">
+        <nav class="header">
+            <p id="logo">BENKYOUstudy</p>
+            <a href="#" class="toggle_button">&#9776;</a>
+            <div class="nav_links">
+                <ul>
+                    <li id="lessons"><a href="lessons.html">LESSONS</a></li>
+                    <li id="materials"><a>MATERIALS</a></li>
+                    <li id="about"><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text_block">
+            <h1>Japanese in 8 <span>lessons</span></h1> 
+        </div>
+        <div class="btn_section">
+            <a href="#" class="btn_down"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div> 
+    </div>
+    <div id="myContainer" class="popup_contact">
+        <div class="container">
+            <form id="myForm">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@example.com">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="">Choose the country</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="kazakhstan">Kazakhstan</option>
+                    <option value="russia">Russia</option>
+                    <option value="uk">UK</option>
+                    <option value="us">US</option>
+                    <option value="japan">Japan</option>
+                </select>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Text your message..." style="height:100px" ></textarea>
+                <div id="submit-btn-container">
+                    <input id="submit-btn" type="submit" name="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="about_course">
+        <div class="info_course">
+            <span><h1>Japanese language in 8 lessons</h1></span>
+            <div class="info_course_list">
+                <ul>
+                    <li>A1 level for beginners</li>
+                    <li>Studying fast and independently</li>
+                    <li>Exercises for better practice</li>
+                    <li>Learning Kanji in a best way</li>
+                    <li>Vocabulary for most cases</li>
+                    <li>Books and materials</li>
+                </ul>
+            </div>
+        </div>
+        <div class="start_course">
+            <img src="styles/media/study_now_1.png" alt="study_logo" width="350px">
+            <span><button onclick="window.location.href='lesson1.html'">START NOW</button></span>
+        </div>
+    </div>
+    <div class="recommendation">
+        <div class="box" id="know-your-motivation">
+            <div class="glass"></div>
+            <div class="content">
+                <h2>Know Your Motivation</h2>
+                <p>“If you are working on something that you really care about, you don’t have to be pushed. The vision pulls you.” – Steve Jobs</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="glass"></div>
+            <div class="content">
+                <h2>Learn Daily</h2>
+                <p>The desire to learn is what sets apart a successful learner from another who won’t be making progress in the long-term!
+                And this is valid for just about anything you want to do in life, those who manage to learn a new language are the very same ones who are curious, full of passion and persevere in their endeavors!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="glass"></div>
+            <div class="content">
+                <h2>Read</h2>
+                <p>Reading is one of the fastest method I know for progressing in a language. I sincerely think that I 
+                would never have gotten to this level, had I not left my comfort zone with such a learning method. Sometimes, to progress in a language, you need to challenge yourself 
+                and do something you think you’re not capable of doing.</p>
+            </div>
+        </div>
+        <div class="box" id="listen-to-music">
+            <div class="glass"></div>
+            <div class="content">
+                <h2>Listen To Music</h2>
+                <p>Listening to music opens up your senses, raises emotions, activates memory, improves concentration and helps learning. Music is also a way into the local culture and 
+                language as it is commonly spoken. Select songs with a catchy chorus, so you can sing along and learn some pronunciation in the process.</p>
+            </div>
+        </div>
+        <div class="box" id="watch-films">
+            <div class="glass"></div>
+            <div class="content">
+                <h2>Watch Films</h2>
+                    <p>You can watch all the TV and movies you want and actually learn—no need to feel guilty anymore!
+                    TV and movies have something for everyone, whether it’s drama, romance, soap operas, nature documentaries or the news. 
+                    And all this can help you improve your language skills.</p>
+            </div>
+        </div>
+    </div>
+    <div class="books">
+        <div id="additional_materials"><h1>Additional Materials</h1></div>
+        <div class="container_for_books">
+            <div class="book_box">
+                <a href="docs/Dictionary_of_Basic_Japanese_Grammar.pdf"><img src="styles/media/book_2.jpg" alt="book" width="150" height="210"></a>
+                <p>Dictionary Of Basic Japanese Grammar</p>
+            </div>
+            <div class="book_box">
+                <a href="docs/Dictionary_of_Intermediate_Japanese_Grammar.pdf"><img src="styles/media/book_3.jpg" alt="book" width="150" height="210"></a>
+                <p>Dictionary Of Intermediate Grammar</p>
+            </div>
+            <div class="book_box">
+                <a href="docs/Dictionary_of_Advanced_Japanese_Grammar.pdf"><img src="styles/media/book_4.jpg" alt="book" width="150" height="210"></a>
+                <p>Dictionary Of Advanced Japanese Grammar</p>
+            </div>
+            <div class="book_box">
+                <a href="docs/Japanese_English_Visual_Dictionary.pdf"><img src="styles/media/book_1.jpg" alt="book" width="150" height="210"></a>
+                <p>Japanese English Bilingual Visual Dictionary</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_box">
+            <h2>About Us</h2>
+            <p>Official online free Japanese language courses. We strive to educate and our lessons are 
+            shared with anyone who wants to learn language. 2020-2021.</p>
+            <p id="logo">BENKYOUstudy</p>
+        </div>
+        <div class="footer_box">
+            <h2>Address</h2><br>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Almaty, Kazakhstan. Tokyo, Japan. </p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> +7-(777)-888-88-88, (03) 8888-8888</p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@benkyoustudy.com</p>
+        </div>
+        <div class="footer_box">
+            <h2>Follow Us</h2>
+            <a><button id="myContact">CONTACT</button></a>
+            <div class="wrapper">
+                <div class="social_media">
+                    <div class="social_media_icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <span>Facebook</span>
+                </div>
+                <div class="social_media">
+                    <div class="social_media_icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <span>Twitter</span>
+                </div>
+                <div class="social_media">
+                    <div class="social_media_icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                    <span>Instagram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

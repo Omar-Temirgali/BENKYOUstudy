@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="styles/media/icon_benkyou.png">
+    <link rel="stylesheet" href="styles/lesson7.css">
+    <title>Lesson 7</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="lesson6.html" id="btn">BACK</a>
+            <a href="index.html" id="btn">MAIN</a>
+        </div>
+        <p id="theme">Lesson 7. How to say in Japanese "I can / can't / could / couldn't"</p>
+        <p id="theme1">7</p>
+        <div>
+            <button id="theme-change">THEME</button>
+            <a href="lesson8.html" id="btn">NEXT</a>
+        </div>
+    </header>
+    <div class="upper">
+        <div class="page">
+            <div class="lessontheme1">
+                <h1 id="th">How to say in Japanese "I can / can't / could / couldn't"</h1>
+            </div>
+            <div class="page1">
+                <p class="indent">In this lesson, you will learn to say "I can go to the movies today," 
+                    "how can we help?" etc. That is, phrases with the verb "can". To do this, we'll have to 
+                    cover some grammar stuff.
+                </p>
+                <p class="indent">
+                    First of all, let us understand what a verb is in Japanese. We have already gotten used to 
+                    the fact that in the sentence, a verb is the word that ends with a bunch of ます. So, this 
+                    form is called the "personal neutral and polite form of the verb", or in other words, 
+                    "the verb in a certain person". It is the same as in Russian the verb "do" or "do". 
+                    If we need to say "buy" in Japanese instead of "I buy" it will be an infinitive and no 
+                    longer 買います, but 買う . It is in this form that you will find this verb in a common 
+                    Japanese-Russian dictionary. It is called a verb in a dictionary form.
+                </p>
+                <p class="indent">
+                    In infinitive, or impersonal form (i.e. "do"), the verb always ends with a letter  
+                    U of the Japanese Kana alphabet. These are the combinations with U that the Japanese verb can end in:
+                </p><br>
+                <div class="example table">
+                    <table>
+                        <colgroup>
+                            <col width="10%">
+                            <col width="5%">
+                            <col width="30%">
+                            <col width="5%">
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <td><ruby>う<rt>u</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>も<rt>mo</rt>ら<rt>ra</rt></ruby><ruby>う<rt>u</rt></ruby> <span class="example-text">(to receive)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>も<rt>mo</rt>ら<rt>ra</rt></ruby><ruby>い<rt>i</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(receive/receives)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>く<rt>ku</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>聞<rt>ki</rt></ruby><ruby>く<rt>ku</rt></ruby> <span class="example-text">(to listen)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>聞<rt>ki</rt></ruby><ruby>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(listen/listens)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>ぐ<rt>gu</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>泳<rt>oyo</rt></ruby><ruby>ぐ<rt>gu</rt></ruby> <span class="example-text">(to swim)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>泳<rt>oyo</rt></ruby><ruby>ぎ<rt>gi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(swim/swims)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>つ<rt>tsu</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>持<rt>mo</rt></ruby><ruby>つ<rt>tsu</rt></ruby> <span class="example-text">(to hold)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>持<rt>mo</rt></ruby><ruby>ち<rt>chi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(hold/holds)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>ぬ<rt>nu</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>死<rt>shi</rt></ruby><ruby>ぬ<rt>nu</rt></ruby> <span class="example-text">(to die)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>死<rt>shi</rt></ruby><ruby>に<rt>ni</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(die/dies)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>す<rt>su</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>話<rt>hana</rt></ruby><ruby>す<rt>su</rt></ruby> <span class="example-text">(speak)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>話<rt>hana</rt></ruby><ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(speak/speaks)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>む<rt>mu</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>読<rt>yo</rt></ruby><ruby>む<rt>mu</rt></ruby> <span class="example-text">(to read)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>読<rt>yo</rt></ruby><ruby>み<rt>mi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(read/reads)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>ぶ<rt>bu</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>呼<rt>yo</rt></ruby><ruby>ぶ<rt>bu</rt></ruby> <span class="example-text">(to call)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>呼<rt>yo</rt></ruby><ruby>び<rt>bi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(call/calls)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>る<rt>ru</rt></ruby></td>
+                            <td>　⇒　</td>
+                            <td><ruby>見<rt>mi</rt></ruby><ruby>る<rt>ru</rt></ruby> <span class="example-text">(to look)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>見<rt>mi</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(look/looks)</span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><br>
+                <p class="indent">The form of verbs with "can" is formed differently for different groups of verbs 
+                    (and there are three in total). Let's have a look at how it happens.
+                </p><br>
+                <p class="indent">First group</p>
+                <p class="indent">These are the verbs that end in vocabulary at う,く,す,つ,ぬ,ぶ,む,ぐ. Accordingly, 
+                    the words before ます are based on the letter from row i (い、き、し、み、り、ち、に).
+                </p>
+                <p class="example">
+                    <ruby>買<rt>ka</rt></ruby><ruby>い<rt>i</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　
+                    (<ruby>買<rt>ka</rt></ruby><ruby>う<rt>u</rt></ruby>) – <span class="example-text">to buy</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>書<rt>ka</rt></ruby><ruby>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　
+                    (<ruby>書<rt>ka</rt></ruby><ruby>く<rt>ku</rt></ruby>) – <span class="example-text">to write</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>行<rt>i</rt></ruby><ruby>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　
+                    (<ruby>行<rt>i</rt></ruby><ruby>く<rt>ku</rt></ruby>) – <span class="example-text">to go</span>
+                </p><br>
+
+                <p class="indent">The verbs of the first group have the form with "can" as follows: we change the 
+                    letter from row i preceding ます to the corresponding letter from row e (え、けk、せ、て、ね、め、れ).
+                </p>
+                <p class="indent">Examples:</p>
+                <div class="example table">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><ruby>会<rt>a</rt></ruby><ruby>い<rt>i</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I meet)</span></td>
+                            <td>　⇒　</td>　　
+                            <td><ruby>会<rt>a</rt></ruby><ruby>え<rt>e</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I can meet)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>会<rt>a</rt></ruby><ruby>え<rt>e</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <br /><span
+                                class="example-text">(I can't meet)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>書<rt>ka</rt></ruby><ruby>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I write)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>書<rt>ka</rt></ruby><ruby>け<rt>ke</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I can write)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>書<rt>ka</rt></ruby><ruby>け<rt>ke</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <br /><span
+                                class="example-text">(I can't write)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>貸<rt>ka</rt></ruby><ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I lend)</span></td>
+                            <td>　⇒　</td>　　
+                            <td><ruby>貸<rt>ka</rt></ruby><ruby>せ<rt>se</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I can lend)</span>　
+                            </td>
+                            <td>　⇒　</td>　
+                            <td><ruby>貸<rt>ka</rt></ruby><ruby>せ<rt>se</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <br /><span
+                                class="example-text">(I can't lend)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>待<rt>ma</rt></ruby><ruby>ち<rt>chi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　<br /><span
+                                class="example-text">(I wait)</span></td>
+                            <td>　⇒　</td>　
+                            <td><ruby>待<rt>ma</rt></ruby><ruby>て<rt>te</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I can wait)</span>　
+                            </td>
+                            <td>　⇒　</td>　
+                            <td><ruby>待<rt>ma</rt></ruby><ruby>て<rt>te</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <br /><span
+                                class="example-text">(I can't wait)</span></td>
+                        </tr>
+                        <tr>
+                            <td><ruby>飛<rt>to</rt></ruby><ruby>び<rt>bi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I fly)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>飛<rt>to</rt></ruby><ruby>べ<rt>be</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <br /><span
+                                class="example-text">(I can fly)</span></td>
+                            <td>　⇒　</td>
+                            <td><ruby>飛<rt>to</rt></ruby><ruby>べ<rt>be</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <br /><span
+                                class="example-text">(I can't fly)</span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><br>
+                <p class="example">
+                    <ruby>今日<rt>kyou</rt></ruby>、<ruby>と<rt>to</rt>も<rt>mo</rt>だ<rt>da</rt>ち<rt>chi</rt>に<rt>ni</rt></ruby>　
+                    <ruby>会<rt>a</rt></ruby><ruby>え<rt>e</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby>。– 
+                    <span class="example-text">Today I will not be able to meet my friends.</span>
+                </p><br>
+                <p class="indent">Second group</p>
+                <p class="indent">These are the verbs that always end in the dictionary form at る, which must be preceded 
+                    by an E or I sound, i.e. syllables え、け、せ、ち、に、び, etc.
+                </p>
+                <p class="example">
+                    <ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I eat)</span>　(
+                    <ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>る<rt>ru</rt></ruby>) – <span class="example-text">(to eat)</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>教<rt>oshi</rt></ruby><ruby>え<rt>e</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I explain)</span>　(
+                    <ruby>教<rt>oshi</rt></ruby><ruby>え<rt>e</rt>る<rt>ru</rt></ruby>) – <span class="example-text">(to explain)</span>
+                </p>
+                <br>
+                <p class="scheme"><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby>　⇒　<ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby></p>
+                <br>
+                <p class="indent">Examples:</p>
+                <p class="example">
+                    <ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span
+                    class="example-text">(I eat)</span>　⇒　<ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>
+                    <span class="example-text">(I can eat)</span>　⇒　<ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span
+                    class="example-text">(I can't eat)</span>
+                </p>
+                <p class="example">
+                    <ruby>寝<rt>ne</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I sleep)</span>　⇒　<ruby>寝<rt>ne</rt></ruby>
+                    <ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I can sleep)</span>　⇒　<ruby>寝<rt>ne</rt></ruby>
+                    <ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span
+                    class="example-text">(I can't sleep)</span>
+                </p><br>
+                <p class="indent">Thrid group</p>
+                <p class="indent">This includes the exception verbs 来る（来ます）- come and する（します）- do, and all the compound 
+                    verbs formed with them.
+                </p><br>
+                <p class="scheme"><b>NOUN</b> + <ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby></p><br>
+                <p class="example">
+                    <ruby>結<rt>kek</rt>婚<rt>kon</rt></ruby> <span class="example-text">(marriage)</span>　+　<ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　=　<ruby>結<rt>kek</rt>婚<rt>kon</rt></ruby>
+                    <ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(to marry)</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>勉<rt>ben</rt>強<rt>kyou</rt></ruby> <span class="example-text">(study)</span>　+　<ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　=　<ruby
+                   >勉<rt>ben</rt>強<rt>kyou</rt></ruby><ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span
+                    class="example-text">(to syudy)</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>ディ<rt>di</rt>ス<rt>su</rt>カ<rt>ka</rt>ウ<rt>u</rt>ン<rt>n</rt>ト<rt>to</rt></ruby> <span class="example-text">(discount)</span>　+　<ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　=　<ruby>ディ<rt>di</rt>ス<rt>su</rt>カ<rt>ka</rt>ウ<rt>u</rt>ン<rt>n</rt>ト<rt>to</rt></ruby>
+                    <ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span
+                    class="example-text">(to make a discount)</span>
+                </p>
+                <p class="indent">For example, in these examples, the words 結婚 (marriage) and 勉強 (study) are kango 
+                    and a ディスカウント (discount) is gairaigo.
+                </p>
+                <p class="indent">Or with the verb 来ます:</p>
+                <p class="example">
+                    <ruby>持<rt>mo</rt></ruby><ruby>っ<rt>t</rt>て<rt>te</rt></ruby> <span
+                    class="example-text">(to hold)</span>　+　<ruby>来<rt>ki</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby>　=　
+                    <ruby>持<rt>mo</rt></ruby><ruby>っ<rt>t</rt>て<rt>te</rt></ruby><ruby>来<rt>ki</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> 
+                   <span class="example-text">(to carry)</span>,
+                </p>
+                
+                <p class="example">
+                    <ruby>連<rt>tsu</rt></ruby><ruby>れ<rt>re</rt>て<rt>te</rt></ruby> <span class="example-text">(to appertain)</span>　+　<ruby>来<rt>ki</rt></ruby>
+                    <ruby>ま<rt>ma</rt>す<rt>su</rt></ruby>　=　
+                    <ruby>連<rt>tsu</rt></ruby><ruby>れ<rt>re</rt>て<rt>te</rt></ruby><ruby>来<rt>ki</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> 
+                   <span
+                    class="example-text">(to bring someone/something)</span>.
+                </p>
+                <br>
+                <p class="example">
+                    <ruby>勉<rt>ben</rt>強<rt>kyou</rt></ruby><ruby>し<rt>shi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I study)</span>　⇒　<ruby>勉<rt>ben</rt>強<rt>kyou</rt></ruby><ruby
+                   >で<rt>de</rt>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I can study)</span>
+                </p>
+                <p class="example">
+                    <ruby>持<rt>mo</rt></ruby><ruby>っ<rt>t</rt>て<rt>te</rt></ruby><ruby>来<rt>ki</rt></ruby><ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> <span
+                    class="example-text">(I bring)</span>　⇒　<ruby>持<rt>mo</rt></ruby><ruby>っ<rt>t</rt>て<rt>te</rt></ruby><ruby
+                   >来<rt>ko</rt></ruby><ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>
+                    <span class="example-text">(I can bring)</span>
+                </p>
+                <br>
+                <p class="example">
+                    <ruby>こ<rt>ko</rt>の<rt>no</rt></ruby><ruby>本<rt>hon</rt></ruby>　<ruby
+                   >を<rt>o</rt></ruby>　<ruby>読<rt>yo</rt></ruby><ruby>み<rt>mi</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>。– <span class="example-text">I read this book.</span>
+                </p>
+                <p class="example">
+                    <ruby>こ<rt>ko</rt>の<rt>no</rt></ruby><ruby>本<rt>hon</rt></ruby>　<ruby>が<rt>ga</rt></ruby>　<ruby>読<rt>yo</rt></ruby><ruby
+                   >め<rt>me</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>。– <span class="example-text">I can read this book.</span>
+                </p>
+                <br>
+                <p class="example">
+                    <ruby>こ<rt>ko</rt>の<rt>no</rt></ruby><ruby>本<rt>hon</rt></ruby>　<ruby>は<rt>wa</rt></ruby>　<ruby>読<rt>yo</rt></ruby><ruby
+                   >め<rt>me</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby>。– <span class="example-text">I can't read this book.</span>
+                </p>
+                <br>
+                <p class="example">
+                    <ruby>行<rt>i</rt></ruby><ruby>け<rt>ke</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I go)</span>　⇒　<ruby>行<rt>i</rt></ruby>
+                    <ruby>け<rt>ke</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span class="example-text">(I can't go)</span>
+                </p>
+                <p class="example">
+                    <ruby>食<rt>ta</rt></ruby><ruby>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby><span class="example-text">(I eat)</span>　⇒　<ruby>食<rt>ta</rt></ruby>
+                    <ruby>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span class="example-text">(I can't eat)</span>
+                </p>
+                <p class="example">
+                    <ruby>勉<rt>ben</rt>強<rt>kyou</rt></ruby><ruby>で<rt>de</rt>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I study)</span>　⇒　<ruby>勉<rt>ben</rt>強<rt>kyou</rt></ruby>
+                    <ruby>で<rt>de</rt>き<rt>ki</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span class="example-text">(I can't study)</span>
+                </p>
+                <p class="example">
+                    <ruby>来<rt>ko</rt></ruby><ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>す<rt>su</rt></ruby> <span class="example-text">(I come)</span>　⇒　<ruby>来<rt>ko</rt></ruby>
+                    <ruby>ら<rt>ra</rt>れ<rt>re</rt>ま<rt>ma</rt>せ<rt>se</rt>ん<rt>n</rt></ruby> <span class="example-text">(I can't come)</span>
+                </p>
+                <br>
+                <p class="indent">Questions</p>
+                <p class="indent">To do this, we simply add か at the end (if the answer to the question is yes or no) or substitute a question word 
+                    (if we expect to hear new information in response).
+                </p>
+                <p class="example">
+                    <ruby>ジ<rt>j</rt>ョ<rt>o</rt></ruby><ruby>ー<rt>u</rt></ruby><ruby>ジ<rt>ji</rt></ruby>　<ruby>さ<rt>sa</rt>ん<rt>n</rt></ruby>、
+                    <ruby>漢<rt>kan</rt>字<rt>ji</rt></ruby>　<ruby>が<rt>ga</rt></ruby>　
+                    <ruby>書<rt>ka</rt></ruby><ruby>け<rt>ke</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　<ruby>か<rt>ka</rt></ruby>。–
+                    <span class="example-text">George, can you write hieroglyphs?</span>
+                </p>
+                <p class="example">
+                    <ruby>今<rt>kon</rt>週<rt>shuu</rt></ruby><ruby>の<rt>no</rt></ruby>　<ruby>土<rt>do</rt>曜<rt>you</rt>日<rt>bi</rt></ruby>　
+                    <ruby>私<rt>watashi</rt></ruby>　<ruby>た<rt>ta</rt>ち<rt>chi</rt>と<rt>to</rt></ruby>　<ruby>一<rt>i</rt>緒<rt>ssho</rt></ruby>　
+                    <ruby>に<rt>ni</rt></ruby>　<ruby>名<rt>na</rt>古<rt>go</rt>屋<rt>ya</rt></ruby>　<ruby>へ<rt>e</rt></ruby>　
+                    <ruby>行<rt>i</rt></ruby><ruby>け<rt>ke</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　<ruby>か<rt>ka</rt></ruby>。–
+                    <span class="example-text">Will you be able to come to Nagoya with us this Saturday?</span>
+                </p>
+                
+                <p class="example">
+                    <ruby>こ<rt>ko</rt>の<rt>no</rt></ruby>　<ruby>辺<rt>hen</rt></ruby>　<ruby>で<rt>de</rt>は<rt>wa</rt></ruby>　
+                    <ruby>ど<rt>do</rt>こ<rt>ko</rt>で<rt>de</rt></ruby>　<ruby>両<rt>ryou</rt>替<rt>gae</rt></ruby>　
+                    <ruby>で<rt>de</rt>き<rt>ki</rt>ま<rt>ma</rt>す<rt>su</rt></ruby>　<ruby>か<rt>ka</rt></ruby>。–
+                    <span class="example-text">Where can I exchange money here?</span>
+                </p><br>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#theme-change").toggle(
+                function(){
+                    $(".page1").css({"background-color": "rgba(0, 0, 0, 0.918)"});
+                    $(".page1").css({"color": "white"});
+                    $("table tr td").css({"border-color": "white"});
+                    $(".spec").css({"color": "yellow"});
+                    $(".spec2").css({"color": "yellow"});
+                    $("#th").css({"background-color": "rgba(0, 0, 0, 0.918)"});
+                    $("#th").css({"color": "white"});
+                },
+                function(){
+                    $(".page1").css({"background-color": "white"});
+                    $(".page1").css({"color": "black"});
+                    $("table tr td").css({"border-color": "black"});
+                    $(".spec").css({"color": "#1D47D0"});
+                    $(".spec2").css({"color": "#1D47D0"});
+                    $("#th").css({"background-color": "rgba(255, 255, 255, 0.562)"});
+                    $("#th").css({"color": "black"});
+                });
+        });
+    </script>
+</body>
+</html>
